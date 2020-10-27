@@ -1,0 +1,20 @@
+spring:
+  rabbitmq:
+    host: 49.234.124.196
+    port: 5672
+    virtual-host: "/"
+    username: "admin"
+    password: "admin"
+
+
+annoy:
+  rabbitmq:
+    directExchange: ANNOY_DIRECT_EXCHANGE
+    topicExchange: ANNOY_TOPIC_EXCHANGE
+    fanoutExchange: ANNOY_FANOUT_EXCHANGE
+    delayedExchange: DELAYED_DELAYED_EXCHANGE
+    directQueue: ANNOY_DIRECT_QUEUE
+    topicQueue: ANNOY_TOPIC_QUEUE
+    fanoutQueue1: ANNOY_FANOUT_QUEUE1
+    fanoutQueue2: ANNOY_FANOUT_QUEUE2
+    delayedQueue: ANNOY_DELAYED_QUEUE
